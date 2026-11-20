@@ -1,0 +1,34 @@
+# Secrets — never commit
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+secrets/
+private/
+credentials.json
+
+# OS junk
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Editor / tooling
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Obsidian — commit config, ignore volatile state
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Plugin code is downloaded by Obsidian; commit settings + manifest only.
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
